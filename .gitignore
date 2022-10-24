@@ -1,0 +1,16 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+.idea/libraries/Clusion_1_0_SNAPSHOT_jar_with_dependencies.xml
+lib/**
+src/test/additionalFiles/**
+src/test/files/**
+src/test/downloads/**
+target/**
+salt/**
