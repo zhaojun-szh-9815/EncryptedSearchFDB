@@ -87,7 +87,7 @@ public class ClusionRR2Lev {
         return res;
     }
 
-    public boolean uploadRR2Lev() throws JsonProcessingException {
+    public boolean uploadRR2Lev() throws Exception {
         if (rr2Lev == null) {
             logger.error("RR2Lev is null, generate it firstly.");
             return false;

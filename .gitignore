@@ -14,3 +14,4 @@ src/test/files/**
 src/test/downloads/**
 target/**
 salt/**
+src/tmp/**

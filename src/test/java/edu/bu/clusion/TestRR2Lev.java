@@ -15,13 +15,17 @@ public class TestRR2Lev {
 
         System.out.println("Enter your password :");
 
-        String pass = keyRead.readLine();
+        // String pass = keyRead.readLine();
+        String pass = "123";
+        System.out.println("password: " + pass);
 
         List<byte[]> listSK = IEX2Lev.keyGen(256, pass, "salt/salt", 100000);
 
         System.out.println("Enter the relative path name of the folder that contains the files to make searchable");
 
-        String pathName = keyRead.readLine();
+        // String pathName = keyRead.readLine();
+        String pathName = ".\\src\\test\\files";
+        System.out.println("pathName: " + pathName);
 
         ArrayList<File> listOfFile = new ArrayList<File>();
         TextProc.listf(pathName, listOfFile);
@@ -43,6 +47,13 @@ public class TestRR2Lev {
         RR2Lev twolev = RR2Lev.constructEMMParGMM(listSK.get(0), TextExtractPar.lp1, bigBlock, smallBlock, dataSize);
         //end
         long endTime = System.nanoTime();
+
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        ObjectOutputStream oos = new ObjectOutputStream(baos);
+        oos.writeObject(twolev.getDictionary());
+        System.out.println("Size of Dictionary: " + baos.size() / 1024 + " kb");
+        oos.close();
+        baos.close();
 
         //time elapsed
         long output = endTime - startTime;
