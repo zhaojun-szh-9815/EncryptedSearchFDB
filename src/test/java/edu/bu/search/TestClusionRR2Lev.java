@@ -15,6 +15,8 @@ public class TestClusionRR2Lev {
 
         rr2Lev1.generateRR2Lev(".\\src\\test\\files");
         long filesSize = rr2Lev1.computeFilesSize(new File(".\\src\\test\\files"));
+//        rr2Lev1.generateRR2Lev("E:\\IntelliJProject\\FDBDS_maildir");
+//        long filesSize = rr2Lev1.computeFilesSize(new File("E:\\IntelliJProject\\FDBDS_maildir"));
 
         Analysis.addFilesSize(filesSize);
         rr2Lev1.uploadRR2Lev();

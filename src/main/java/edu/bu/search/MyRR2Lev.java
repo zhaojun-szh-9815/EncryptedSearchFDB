@@ -47,7 +47,7 @@ public class MyRR2Lev implements Serializable {
 
     public void setMultiDictionary(Multimap<String, byte[]> dictionary) {
         this.dictionary = dictionary.asMap();
-        try (OutputStream os = new FileOutputStream(".\\src\\tmp\\dict.txt");){
+        try (OutputStream os = new FileOutputStream(".\\dict.txt");){
             for (String key : dictionary.keys()) {
                 os.write(key.getBytes());
                 for (byte[] bytes : dictionary.get(key)) {

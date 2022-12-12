@@ -17,7 +17,7 @@ public class Analysis {
     }
 
     public static void getKeyValueSize() throws Exception{
-        File f = new File(".\\src\\tmp\\dict.txt");
+        File f = new File(".\\dict.txt");
         KeyValueSize = f.length();
     }
 

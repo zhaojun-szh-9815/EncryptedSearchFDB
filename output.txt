@@ -1,0 +1,208 @@
+ubuntu@proxy:~/EncryptedSearch$ java -jar ESFDB.jar
+Enter operation (upload / download / clear / search): upload
+Enter path: ./emails
+2022-12-09 01:39:19.427 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 87_
+2022-12-09 01:39:21.167 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 78_
+2022-12-09 01:39:21.897 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 72_
+2022-12-09 01:39:22.141 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 66_
+2022-12-09 01:39:24.049 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 19_
+2022-12-09 01:39:24.898 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 9_
+2022-12-09 01:39:25.534 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 37_
+2022-12-09 01:39:25.910 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 83_
+2022-12-09 01:39:26.007 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 12_
+2022-12-09 01:39:26.191 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 39_
+2022-12-09 01:39:26.252 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 79_
+2022-12-09 01:39:26.276 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 41_
+2022-12-09 01:39:26.306 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 11_
+2022-12-09 01:39:26.411 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 69_
+2022-12-09 01:39:27.058 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 86_
+2022-12-09 01:39:27.701 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 33_
+2022-12-09 01:39:28.068 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 43_
+2022-12-09 01:39:28.093 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 7_
+2022-12-09 01:39:28.171 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 32_
+2022-12-09 01:39:28.805 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 24_
+2022-12-09 01:39:29.756 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 75_
+2022-12-09 01:39:30.144 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 14_
+2022-12-09 01:39:30.412 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 1_
+2022-12-09 01:39:30.562 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 23_
+2022-12-09 01:39:30.655 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 2_
+2022-12-09 01:39:32.001 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 40_
+2022-12-09 01:39:33.639 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 68_
+2022-12-09 01:39:34.462 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 30_
+2022-12-09 01:39:36.404 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 62_
+2022-12-09 01:39:36.716 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 5_
+2022-12-09 01:39:36.847 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 25_
+2022-12-09 01:39:37.760 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 85_
+2022-12-09 01:39:38.748 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 74_
+2022-12-09 01:39:40.066 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 4_
+2022-12-09 01:39:41.573 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 64_
+2022-12-09 01:39:42.679 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 44_
+2022-12-09 01:39:42.848 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 15_
+2022-12-09 01:39:42.880 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 36_
+2022-12-09 01:39:42.905 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 67_
+2022-12-09 01:39:42.963 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 10_
+2022-12-09 01:39:43.200 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 31_
+2022-12-09 01:39:45.550 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 27_
+2022-12-09 01:39:46.457 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 8_
+2022-12-09 01:39:46.855 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 28_
+2022-12-09 01:39:46.891 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 38_
+2022-12-09 01:39:46.923 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 18_
+2022-12-09 01:39:46.958 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 45_
+2022-12-09 01:39:47.298 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 6_
+2022-12-09 01:39:47.328 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 17_
+2022-12-09 01:39:47.411 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 71_
+2022-12-09 01:39:47.445 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 20_
+2022-12-09 01:39:47.804 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 26_
+2022-12-09 01:39:49.117 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 34_
+2022-12-09 01:39:49.522 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 73_
+2022-12-09 01:39:49.553 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 35_
+2022-12-09 01:39:49.622 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 70_
+2022-12-09 01:39:50.038 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 63_
+2022-12-09 01:39:50.438 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 21_
+2022-12-09 01:39:51.325 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 42_
+2022-12-09 01:39:52.264 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 29_
+2022-12-09 01:39:53.028 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 13_
+2022-12-09 01:39:54.884 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 3_
+2022-12-09 01:39:56.801 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 84_
+2022-12-09 01:39:57.647 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 22_
+2022-12-09 01:39:58.285 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 65_
+2022-12-09 01:39:59.784 [INFO ] edu.bu.fdb.FDBService - UploadAFile: Success upload 16_
+
+Beginning of Encrypted Multi-map creation
+
+DlsD build in： 243 ms
+size of dict pre-search (w, id) pairs 10377 Unique keywords 3551
+
+2022-12-09 01:40:00.381 [INFO ] edu.bu.search.MyRR2Lev - MultiMap Size = 1360620
+2022-12-09 01:40:00.382 [INFO ] edu.bu.search.ClusionDlsD - Upload: dict size = 10377 key size = 10377
+2022-12-09 01:40:00.382 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: pair: 0
+2022-12-09 01:42:46.399 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: pair: 1000
+2022-12-09 01:45:29.720 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: pair: 2000
+2022-12-09 01:46:31.092 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: pair: 3000
+2022-12-09 01:48:32.040 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: pair: 4000
+2022-12-09 01:49:55.028 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: pair: 5000
+2022-12-09 01:52:18.518 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: pair: 6000
+2022-12-09 01:53:21.564 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: pair: 7000
+2022-12-09 01:54:42.255 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: pair: 8000
+2022-12-09 01:56:46.156 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: pair: 9000
+2022-12-09 01:59:17.164 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: pair: 10000
+2022-12-09 02:00:36.899 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: Success
+exit?(Y/N)N
+Enter operation (upload / download / clear / search): download
+2022-12-09 02:00:52.638 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 0
+2022-12-09 02:00:52.854 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 1000
+2022-12-09 02:00:53.042 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 2000
+2022-12-09 02:00:53.229 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 3000
+2022-12-09 02:00:53.445 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 4000
+2022-12-09 02:00:53.689 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 5000
+2022-12-09 02:00:53.878 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 6000
+2022-12-09 02:00:54.064 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 7000
+2022-12-09 02:00:54.259 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 8000
+2022-12-09 02:00:54.532 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 9000
+2022-12-09 02:00:55.014 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 10000
+2022-12-09 02:00:55.093 [INFO ] edu.bu.search.ClusionDlsD - Download Lev Map: 10377
+2022-12-09 02:00:55.100 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: Success
+Map Key-Value: 1134.37109375 kb
+Map: 1328.73046875 kb
+Files: 170.5869140625 kb
+Key-Value | Files: 6.649813087857294
+Map | Files: 7.78916997269308
+exit?(Y/N)N
+Enter operation (upload / download / clear / search): search
+Enter keyword (finish by enter quit):
+request
+[87_, 78_, 19_, 39_, 41_, 75_, 14_, 25_, 15_, 28_, 38_, 84_]
+Download the files? Enter the filename you want to download, or * to download all.
+Or leave it empty to exit.
+
+Enter keyword (finish by enter quit):
+name
+[87_, 19_, 12_, 79_, 41_, 75_, 14_, 40_, 64_, 38_, 45_, 63_, 16_]
+Download the files? Enter the filename you want to download, or * to download all.
+Or leave it empty to exit.
+
+Enter keyword (finish by enter quit):
+quit
+end.
+exit?(Y/N)N
+Enter operation (upload / download / clear / search): clear
+Enter path: ./emails
+2022-12-09 02:01:47.294 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 87_
+2022-12-09 02:01:48.477 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 78_
+2022-12-09 02:01:48.598 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 72_
+2022-12-09 02:01:48.706 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 66_
+2022-12-09 02:01:48.972 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 19_
+2022-12-09 02:01:49.161 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 9_
+2022-12-09 02:01:49.206 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 37_
+2022-12-09 02:01:49.230 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 83_
+2022-12-09 02:01:49.255 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 12_
+2022-12-09 02:01:49.279 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 39_
+2022-12-09 02:01:50.206 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 79_
+2022-12-09 02:01:50.422 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 41_
+2022-12-09 02:01:50.573 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 11_
+2022-12-09 02:01:50.621 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 69_
+2022-12-09 02:01:50.791 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 86_
+2022-12-09 02:01:51.101 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 33_
+2022-12-09 02:01:51.299 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 43_
+2022-12-09 02:01:51.516 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 7_
+2022-12-09 02:01:51.648 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 32_
+2022-12-09 02:01:51.753 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 24_
+2022-12-09 02:01:51.776 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 75_
+2022-12-09 02:01:52.221 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 14_
+2022-12-09 02:01:52.837 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 1_
+2022-12-09 02:01:53.198 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 23_
+2022-12-09 02:01:53.371 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 2_
+2022-12-09 02:01:54.279 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 40_
+2022-12-09 02:01:55.911 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 68_
+2022-12-09 02:01:56.295 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 30_
+2022-12-09 02:01:56.353 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 62_
+2022-12-09 02:01:56.386 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 5_
+2022-12-09 02:01:56.462 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 25_
+2022-12-09 02:01:57.812 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 85_
+2022-12-09 02:01:59.968 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 74_
+2022-12-09 02:02:01.147 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 4_
+2022-12-09 02:02:01.501 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 64_
+2022-12-09 02:02:01.913 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 44_
+2022-12-09 02:02:02.350 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 15_
+2022-12-09 02:02:02.449 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 36_
+2022-12-09 02:02:02.679 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 67_
+2022-12-09 02:02:03.480 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 10_
+2022-12-09 02:02:04.478 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 31_
+2022-12-09 02:02:04.792 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 27_
+2022-12-09 02:02:05.091 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 8_
+2022-12-09 02:02:05.540 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 28_
+2022-12-09 02:02:06.335 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 38_
+2022-12-09 02:02:06.845 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 18_
+2022-12-09 02:02:07.692 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 45_
+2022-12-09 02:02:08.242 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 6_
+2022-12-09 02:02:08.334 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 17_
+2022-12-09 02:02:08.481 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 71_
+2022-12-09 02:02:08.658 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 20_
+2022-12-09 02:02:09.747 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 26_
+2022-12-09 02:02:11.010 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 34_
+2022-12-09 02:02:11.551 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 73_
+2022-12-09 02:02:11.715 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 35_
+2022-12-09 02:02:12.652 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 70_
+2022-12-09 02:02:12.831 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 63_
+2022-12-09 02:02:13.874 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 21_
+2022-12-09 02:02:14.075 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 42_
+2022-12-09 02:02:14.195 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 29_
+2022-12-09 02:02:14.776 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 13_
+2022-12-09 02:02:14.925 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 3_
+2022-12-09 02:02:14.958 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 84_
+2022-12-09 02:02:14.984 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 22_
+2022-12-09 02:02:15.009 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 65_
+2022-12-09 02:02:15.038 [INFO ] edu.bu.fdb.FDBService - ClearAFile: Success clear 16_
+2022-12-09 02:02:15.039 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 0
+2022-12-09 02:03:07.638 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 1000
+2022-12-09 02:03:56.711 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 2000
+2022-12-09 02:04:31.269 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 3000
+2022-12-09 02:04:50.385 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 4000
+2022-12-09 02:05:18.588 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 5000
+2022-12-09 02:06:20.191 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 6000
+2022-12-09 02:07:08.943 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 7000
+2022-12-09 02:07:58.764 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 8000
+2022-12-09 02:08:26.763 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 9000
+2022-12-09 02:08:50.992 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 10000
+2022-12-09 02:09:00.638 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: Success
+exit?(Y/N)Y

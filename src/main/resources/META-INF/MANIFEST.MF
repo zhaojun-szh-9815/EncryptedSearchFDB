@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: edu.bu.Startup
+Class-Path: libs/logback-core-1.3.1.jar libs/logback-classic-1.3.1.jar l
+ ibs/Clusion-1.0-SNAPSHOT-jar-with-dependencies.jar libs/slf4j-api-2.0.1
+ .jar libs/jackson-databind-2.11.4.jar libs/fdb-java-5.2.5.jar libs/jack
+ son-core-2.11.4.jar libs/jackson-annotations-2.11.4.jar
+

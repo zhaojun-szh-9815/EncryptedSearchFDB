@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact name="EncryptedSearchFDB:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EncryptedSearchFDB_jar</output-path>
+    <root id="root">
+      <element id="archive" name="EncryptedSearchFDB.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="EncryptedSearchFDB" />
+      </element>
+      <element id="directory" name="libs">
+        <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.3.1" />
+        <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.3.1" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.4" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.4" />
+        <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.4" />
+        <element id="library" level="project" name="Maven: org.foundationdb:fdb-java:5.2.5" />
+        <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.1" />
+      </element>
+    </root>
+  </artifact>
+</component>

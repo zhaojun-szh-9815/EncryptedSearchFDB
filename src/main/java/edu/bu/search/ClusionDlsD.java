@@ -55,9 +55,11 @@ public class ClusionDlsD {
         TextProc.listf(path, listOfFile);
         TextProc.TextProc(false, path);
         System.out.println("\nBeginning of Encrypted Multi-map creation \n");
+        long startTime=System.currentTimeMillis();
         this.dlsd = DlsD.constructEMMParGMM(key1, key2, TextExtractPar.lp1);
+        long endTime=System.currentTimeMillis();
+        System.out.println("DlsD build in： "+(endTime-startTime)+" ms");
         System.out.println("size of dict pre-search (w, id) pairs " + this.dlsd.getOld_dictionary().size()+ " Unique keywords "+TextExtractPar.lp1.keySet().size()+"\n");
-
 
     }
 
@@ -83,20 +85,21 @@ public class ClusionDlsD {
 
         try (
                 Database db = fdb.open();
-                PrintWriter printWriter = new PrintWriter(".\\src\\tmp\\keys.txt", "Ascii");
             ) {
             Map<String, Collection<byte[]>> dict = myRR2Lev.getDictionary();
             this.keys = dict.keySet();
             logger.info("Upload: dict size = " + dict.size() + " key size = " + this.keys.size());
+            int i = 0;
             for (String key : this.keys) {
-                printWriter.println(key);
-            }
-            db.run(transaction -> {
-                for (String key : this.keys) {
-                    transaction.set(Tuple.from(key).pack(), Tuple.from(dict.get(key)).pack());
+                if (i%1000 == 0) {
+                    logger.info("Upload DlsD: pair: " + i);
                 }
-                return null;
-            });
+                i += 1;
+                db.run(transaction -> {
+                    transaction.set(Tuple.from(key).pack(), Tuple.from(dict.get(key)).pack());
+                    return null;
+                });
+            }
             logger.info("Upload DlsD: Success");
             return true;
         } catch (Exception e) {
@@ -112,19 +115,16 @@ public class ClusionDlsD {
             //loadKeys();
         }
         try (Database db = fdb.open()){
-            db.run(transaction -> {
-                for (String s : this.keys) {
-                    transaction.clear(Tuple.from(s).pack());
+            int i=0;
+            for (String s : this.keys) {
+                if (i%1000 == 0) {
+                    logger.info("Clear DlsD: pair: " + i);
                 }
-                return null;
-            });
-            File file = new File(".\\src\\tmp\\keys.txt");
-
-            if (file.delete()) {
-                logger.info("KeySet deleted successfully");
-            }
-            else {
-                logger.error("Failed to delete the KeySet");
+                i += 1;
+                db.run(transaction -> {
+                    transaction.clear(Tuple.from(s).pack());
+                        return null;
+                });
             }
             logger.info("Clear DlsD: Success");
             return true;
@@ -142,14 +142,18 @@ public class ClusionDlsD {
         }
 
         try (Database db = fdb.open()) {
-
-            db.run(tr -> {
-                for (String key : this.keys) {
+            int i=0;
+            for (String key : this.keys) {
+                if (i%1000 == 0) {
+                    logger.info("Clear DlsD: pair: " + i);
+                }
+                i += 1;
+                db.run(tr -> {
                     byte[] result = tr.get(Tuple.from(key).pack()).join();
                     this.levMap.put(key, (LinkedList) Tuple.fromBytes(result).get(0));
-                }
-                return null;
-            });
+                    return null;
+                });
+            }
 
             logger.info("Download Lev Map: " + this.levMap.size());
             MyRR2Lev myRR2Lev = new MyRR2Lev();
@@ -165,7 +169,4 @@ public class ClusionDlsD {
             return false;
         }
     }
-
-
-
 }

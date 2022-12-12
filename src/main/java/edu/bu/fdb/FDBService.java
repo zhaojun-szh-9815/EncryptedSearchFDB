@@ -17,7 +17,7 @@ public class FDBService {
     private static final Logger logger = LoggerFactory.getLogger(FDBService.class);
     private static final int FILE_MAX_SIZE = 10*1024;
     private static final String STR_LENGTH = "LENGTH";
-    private static final String DOWNLOAD_PATH = ".\\src\\test\\downloads\\";
+    private static final String DOWNLOAD_PATH = ".\\downloads\\";
 
     private static List<File> listFiles(File dirPath){
         List<File> Path = Arrays.asList(dirPath.listFiles());
