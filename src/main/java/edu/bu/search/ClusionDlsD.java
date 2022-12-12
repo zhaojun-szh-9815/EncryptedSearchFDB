@@ -145,7 +145,7 @@ public class ClusionDlsD {
             int i=0;
             for (String key : this.keys) {
                 if (i%1000 == 0) {
-                    logger.info("Clear DlsD: pair: " + i);
+                    logger.info("Download DlsD: pair: " + i);
                 }
                 i += 1;
                 db.run(tr -> {

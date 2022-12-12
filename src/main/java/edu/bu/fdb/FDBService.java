@@ -17,7 +17,7 @@ public class FDBService {
     private static final Logger logger = LoggerFactory.getLogger(FDBService.class);
     private static final int FILE_MAX_SIZE = 10*1024;
     private static final String STR_LENGTH = "LENGTH";
-    private static final String DOWNLOAD_PATH = ".\\downloads\\";
+    private static final String DOWNLOAD_PATH = "./downloads/";
 
     private static List<File> listFiles(File dirPath){
         List<File> Path = Arrays.asList(dirPath.listFiles());
@@ -119,8 +119,9 @@ public class FDBService {
             int length;
             while ((length = bis.read(buffer)) != -1) {
                 String DBIndex = fileName + index;
+                byte[] content = Arrays.copyOfRange(buffer, 0, length);
                 db.run(transaction -> {
-                    transaction.set(Tuple.from(DBIndex).pack(), Tuple.from(buffer).pack());
+                    transaction.set(Tuple.from(DBIndex).pack(), Tuple.from(content).pack());
                     return null;
                 });
                 index += 1;

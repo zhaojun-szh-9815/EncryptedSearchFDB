@@ -89,17 +89,17 @@ size of dict pre-search (w, id) pairs 10377 Unique keywords 3551
 2022-12-09 02:00:36.899 [INFO ] edu.bu.search.ClusionDlsD - Upload DlsD: Success
 exit?(Y/N)N
 Enter operation (upload / download / clear / search): download
-2022-12-09 02:00:52.638 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 0
-2022-12-09 02:00:52.854 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 1000
-2022-12-09 02:00:53.042 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 2000
-2022-12-09 02:00:53.229 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 3000
-2022-12-09 02:00:53.445 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 4000
-2022-12-09 02:00:53.689 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 5000
-2022-12-09 02:00:53.878 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 6000
-2022-12-09 02:00:54.064 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 7000
-2022-12-09 02:00:54.259 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 8000
-2022-12-09 02:00:54.532 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 9000
-2022-12-09 02:00:55.014 [INFO ] edu.bu.search.ClusionDlsD - Clear DlsD: pair: 10000
+2022-12-09 02:00:52.638 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: pair: 0
+2022-12-09 02:00:52.854 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: pair: 1000
+2022-12-09 02:00:53.042 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: pair: 2000
+2022-12-09 02:00:53.229 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: pair: 3000
+2022-12-09 02:00:53.445 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: pair: 4000
+2022-12-09 02:00:53.689 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: pair: 5000
+2022-12-09 02:00:53.878 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: pair: 6000
+2022-12-09 02:00:54.064 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: pair: 7000
+2022-12-09 02:00:54.259 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: pair: 8000
+2022-12-09 02:00:54.532 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: pair: 9000
+2022-12-09 02:00:55.014 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: pair: 10000
 2022-12-09 02:00:55.093 [INFO ] edu.bu.search.ClusionDlsD - Download Lev Map: 10377
 2022-12-09 02:00:55.100 [INFO ] edu.bu.search.ClusionDlsD - Download DlsD: Success
 Map Key-Value: 1134.37109375 kb

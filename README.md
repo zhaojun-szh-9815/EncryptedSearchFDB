@@ -12,6 +12,22 @@
 * [Clusion](https://github.com/encryptedsystems/Clusion)
 
 ## 3. Structure
+
+### 3.0. Overview
+
+![Structure](./Structure.jpg)
+
+
+1. Start project, read files path
+2. Call FDBService to upload files
+3. Uploading files in encrypted, encrypted by FDB
+4. Call ClusionDlsD to generate DlsD object
+5. Uploading indexes in encrypted, encrypted by Clusion and FDB
+6. Call DlsD to search keyword, return a list of filenames
+7. Call FDBService to download files
+8. Downloading in encrypted, decrypted by FDB
+
+
 ### 3.1. fdb package: upload files (once)
 
 * Class: [FDBService](src/main/java/edu/bu/fdb/FDBService.java)
